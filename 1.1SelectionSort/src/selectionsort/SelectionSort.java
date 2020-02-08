@@ -5,6 +5,11 @@ public class SelectionSort {
 
 	public static void main(String[] args) {
 		int[] array = {6, 3, 8, 9, 1, 2, 10, 7};
+		/*[3, 6, 8, 1, 2, 9, 7, 10]
+		  [3, 6, 1, 2, 8, 7, 9, 10]
+		  [3, 1, 2, 6, 7, 8, 9, 10]
+		  [1, 2, 3, 6, 7, 8, 9, 10]
+		*/
 		
 		System.out.println(Arrays.toString(sort(array)));
 	}
